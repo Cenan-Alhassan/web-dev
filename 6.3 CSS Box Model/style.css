@@ -1,0 +1,33 @@
+div{
+
+    height: 200px;
+    width: 200px;
+
+}
+
+#on{
+
+    background-color: cadetblue;
+    padding: 20px;
+    border: 10px solid black;
+}
+
+#tw{
+
+    background-color: gold;
+    border: 10px solid black;
+    border-width: 20px 10px;
+    margin-left: 260px;
+}
+
+#th{
+
+    background-color: indianred;
+    margin-left: 40px;
+    border: 10px solid black;
+   
+}
+
+p{
+    margin: 0;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+
+    body{
+      display: flex;
+      justify-content: center;
+      min-width: 748px;
+    }
+
+ 
+
+    .container{
+
+      display: grid;
+      height: 748px;
+      width: 748px;
+      gap: 9px;
+      background-color: black;
+      grid-template-columns: 0.443fr 0.274fr 0.212fr 0.069fr;
+      grid-template-rows: 414px 130px 155px 20px;
+      
+    }
+
+    .one{
+      background-color: #E72F24;
+    }
+
+    .two{
+      background-color: #F0F1EC;
+      grid-column: span 3;
+    }
+    
+    .thr{
+      background-color: #F0F1EC;
+      grid-row: span 2;
+    }
+    
+    .fou{
+      background-color: #F0F1EC;
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+    
+    .fiv{
+      background-color: #004592;
+      border-bottom: 10px solid black;
+    }
+    
+    .six{
+      background-color: #F0F1EC;
+      grid-row: span 2;
+    }
+    
+    .sev{
+      background-color: #F0F1EC;
+      
+    }
+    
+    .eig{
+      background-color: #F9D01E;
+      
+    }
+    
+    .nin{
+      background-color: #232629;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div class = "container">
+    
+    <div class = "one"></div>
+
+    <div class = "two"></div>
+
+    <div class = "thr"></div>
+
+    <div class = "fou"></div>
+    
+    <div class = "fiv"></div>
+    
+    <div class = "six"></div>
+    
+    <div class = "sev"></div>
+    
+    <div class = "eig"></div>
+    
+    <div class = "nin"></div>
+    
+    
+  </div>
+</body>
+
+</html>
